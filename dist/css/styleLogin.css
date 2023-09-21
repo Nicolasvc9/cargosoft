@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.imgLogin{
+  min-height: 180px;
+  background-image: url('../../assets/img/img-1.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+body{
+  background-image: url('../../assets/img/img-1.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}

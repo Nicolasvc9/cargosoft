@@ -58,7 +58,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             </table>
           </div>
         </div>
-        <div class="col-12 col-md-6 form-group border border-danger rounded-2 bg-white py-2">
+        <div class="col-12 col-md-6 form-group border border-primary rounded-2 bg-white py-2">
           <label class="w-100">
             TOTAL SALDOS
             <input id="valorTotal" type="number" class="form-control text-danger fw-bolder" value="$0.0" readonly>

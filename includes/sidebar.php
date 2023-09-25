@@ -185,6 +185,16 @@ if (file_exists($rutaImagen . 'logo_mini.png')) {
                 </li>
               <?php endif; ?>
             </ul>
+            <ul class="nav nav-treeview  bg_secondary  bg_secondary">
+              <?php if (in_array(7, $permisos)) : ?>
+                <li class="nav-item">
+                  <a href="/views/prefactura/pre_factura/prefacturas.php" class="nav-link text_primary">
+                    <i class="fa-regular fa-file-lines text_primary"></i>
+                    <p class="text_primary">Pre-Facturas</p>
+                  </a>
+                </li>
+              <?php endif; ?>
+            </ul>
           </li>
         <?php endif; ?>
 

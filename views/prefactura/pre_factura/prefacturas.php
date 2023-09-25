@@ -1,14 +1,14 @@
 <?php
 session_start();
 $ruta = 2;
-$titulo = "Crear Prefactura|CaribeCargo";
+$titulo = "Prefacturas|CargoCaribe";
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 ?>
 
 <body class="hold-transition sidebar-mini">
     <div class="wrapper">
         <?php
-        $page = "Crear Prefactura";
+        $page = "Prefacturas";
         require_once $rutaLocal . "/includes/navbar.php";
         require_once $rutaLocal . "/includes/sidebar.php";
         ?>
@@ -22,7 +22,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                                 <div class="col-4 form-group">
                                     <label class="w-100">
                                         Fecha Inicio
-                                        <input type="date" name="" id="desde    " class="form-control">
+                                        <input type="date" name="" id="desde" class="form-control">
                                     </label>
                                 </div>
                                 <div class="col-4 form-group">
@@ -50,7 +50,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                     </div>
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
-                            <label class="col-form-label">Seleccione las guias sin prefacturar</label>
+                            <label class="col-form-label">Seleccione las prefacturas</label>
                         </div>
                         <div class="col-auto">
                             <input type="text" class="form-control" placeholder="buscar">
@@ -82,9 +82,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                             </table>
                         </div>
                     </div>
-                    <div class="col-4 form-group mt-3">
-                        <button class="btn btn_primary" type="submit">prefacturar</button>
-                    </div>
+                    <button class="btn btn_primary" type="submit">cambiar número</button>
+                    <button class="btn btn_primary" type="submit">Eliminar Prefactura</button>
                 </div>
             </div>
         </div>

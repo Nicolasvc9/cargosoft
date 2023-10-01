@@ -53,6 +53,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                             <label class="col-form-label">Seleccione las prefacturas</label>
                         </div>
                         <div class="col-auto">
+                            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Filtrar
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">#Guia</a></li>
+                                <li><a class="dropdown-item" href="#">Cliente</a></li>
+                                <li><a class="dropdown-item" href="#">NIT</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-auto">
                             <input type="text" class="form-control" placeholder="buscar">
                         </div>
                     </div>
